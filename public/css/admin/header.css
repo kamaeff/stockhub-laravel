@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    background-color: #DCDCDC;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.header__logo {
+    border-radius: 20px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px 20px;
+}
+
+.header__nav li {
+    margin-left: auto;
+    margin-right: 20px;
+
+    font-size: 20px;
+}
+
+.header__nav a {
+    color: #000;
+}
+
+.header__nav li a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.header__nav--logout {
+    display: flex;
+    align-items: center;
+
+    margin-right: 40px;
+
+    gap: 10px;
+    font-size: 20px;
+}
+
+.header__nav--logout:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,85 @@
+.main--title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+table {
+	border-spacing: 0;
+	width: 100%;
+}
+
+thead {
+	display: table-header-group;
+}
+
+thead th {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+}
+
+thead th:first-child {
+	border-radius: 9px 0 0 0;
+}
+
+thead th:last-child {
+	border-radius: 0 9px 0 0;
+}
+
+tbody {
+	display: table-row-group;
+}
+
+tbody td {
+	text-align: center;
+	border: none;
+	padding: 8px 5px;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+/* tbody tr:nth-child(even) {
+	background: #f3f3f3;
+} */
+
+tbody td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+
+tbody td:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+caption {
+	caption-side: top;
+	font-size: 30px;
+	color: #000;
+}
+
+.main__logist_table--input {
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+
+.main__logist_table--input {
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.order__status-succes--text {
+  cursor: pointer;
+  color: #309700;
+}
+
+.order__status-error--text {
+  cursor: pointer;
+	color: #ff7d88;
+}
